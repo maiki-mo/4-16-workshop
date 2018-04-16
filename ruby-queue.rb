@@ -16,7 +16,7 @@ class Queue
     end
 
     def empty?
-        if @item[0] .nil?
+        if @item[0].nil?
             puts "There is nothing in here"
         else
             puts "Here is what is inside: #{@item}"
