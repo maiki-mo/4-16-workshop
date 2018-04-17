@@ -24,7 +24,7 @@ class Stack
     end
     
     def show
-      puts "The contents are #{@items}"
+      puts "The contents are #{@items.reverse}"
     end
   end
   
